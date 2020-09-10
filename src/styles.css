@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #e3f2fd;
+}
+.container {
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.linechart {
+  width: 100%;
+  background-color: #f3e5f5;
+  border-radius: 10px;
+}

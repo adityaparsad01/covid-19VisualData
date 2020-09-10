@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Grid, Typography } from "@material-ui/core";
 import LineChart from "./LineChart";
+import Delhi from "./Delhi";
 import "./styles.css";
 
 const URL = "https://api.covid19india.org/data.json";
@@ -29,6 +30,7 @@ const App = () => {
       </Typography>
       <Grid item xs={12} className="linechart">
         <LineChart api={api} />
+        <Delhi />
       </Grid>
     </div>
   );

@@ -44,7 +44,7 @@ const LineChart = ({ api }) => {
           },
           {
             data: diff,
-            label: "Total difference",
+            label: "Total Active",
             borderColor: "#8d6e63",
             backgroundColor: "#8d6e63",
             fill: false
